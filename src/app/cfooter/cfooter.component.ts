@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbActiveModal, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-cfooter',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CfooterComponent implements OnInit {
 
-  constructor() { }
+  constructor(private imgModal:NgbModal) { }
 
   ngOnInit() {
   }
 
+  open(content) {
+    this.imgModal.open(content);
+  }
+  imgClick(imgMod){
+    this.imgModal.open(imgMod);
+  }
 }
