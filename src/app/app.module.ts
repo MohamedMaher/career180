@@ -17,6 +17,7 @@ import { ChomeComponent } from './chome/chome.component';
 import { RouterModule, Routes } from '@angular/router';
 import { CaboutComponent } from './cabout/cabout.component';
 import { CpointsComponent } from './cpoints/cpoints.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 const appRoutes: Routes = [
   { path: 'chome', component: ChomeComponent},
@@ -50,7 +51,9 @@ const appRoutes: Routes = [
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
-    )
+    ),
+    NgbModule,
+    NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

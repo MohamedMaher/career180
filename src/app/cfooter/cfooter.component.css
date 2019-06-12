@@ -1,0 +1,31 @@
+.footer-pad{
+    background-image: url('/assets/box.png');
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+}
+h5{
+    color: #fff;
+    font-weight: 500;
+}
+h4{
+    color: #fff;
+    font-weight: 700;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+}
+footer img{
+    width: 150px;
+    margin: 0 auto;
+}
+.modal-body{
+    width: 100%;
+}
+.modal-body img{
+    width: 700px;
+}
