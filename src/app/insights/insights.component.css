@@ -1,0 +1,36 @@
+
+.evt-title {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: underline;
+    padding-left: 20px;
+    border-left: 5px solid #fff;
+    font-weight: 700;
+    margin-left: 15px;
+    text-align: left;
+}
+.first-div {
+    background-color: #00000036;
+}
+.ins-container {
+    padding: 10px;
+    background-image: url(../../assets/1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.img-cell {
+    margin: 0 auto;
+    text-align: center;
+    height: 80px;
+    display: none;
+}
+.txt-cell {
+    text-align: center;
+    color: #fff;
+    font-size: large;
+    text-transform: capitalize;
+    display: none;
+}

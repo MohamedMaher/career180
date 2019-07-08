@@ -1,8 +1,13 @@
 .footer-pad{
     background-image: url('/assets/box.png');
-    position: fixed;
+    position: relative;
     bottom: 0px;
+    left: 0px;
     padding: 10px;
+}
+.footer-pad .row{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 h5{
     color: #fff;

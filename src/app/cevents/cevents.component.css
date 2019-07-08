@@ -1,0 +1,29 @@
+.evt-container {
+    padding: 10px;
+    background-image: url(../../assets/2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+}
+.evt-container a{
+    position: absolute;
+    bottom: 5px;
+    right:5px;
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.evt-title {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: underline;
+    padding-left: 20px;
+    border-left: 5px solid #fff;
+    font-weight: 700;
+    margin-left: 15px;
+    text-align: left;
+}

@@ -6,7 +6,6 @@ import { CheaderComponent } from './cheader/cheader.component';
 import { CmenuComponent } from './cmenu/cmenu.component';
 import { CfooterComponent } from './cfooter/cfooter.component';
 import { CexploreComponent } from './cexplore/cexplore.component';
-import { CinsightsComponent } from './cinsights/cinsights.component';
 import { CeventsComponent } from './cevents/cevents.component';
 import { CexpertsComponent } from './cexperts/cexperts.component';
 import { CvideosComponent } from './cvideos/cvideos.component';
@@ -18,6 +17,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { CaboutComponent } from './cabout/cabout.component';
 import { CpointsComponent } from './cpoints/cpoints.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { ExplcareerComponent } from './explcareer/explcareer.component';
+import { InsightsComponent } from './insights/insights.component';
+import { EvtelementComponent } from './evtelement/evtelement.component';
+import { ExpelementComponent } from './expelement/expelement.component';
+import { VidelementComponent } from './videlement/videlement.component';
+import { QueselementComponent } from './queselement/queselement.component';
+import { ContactusComponent } from './contactus/contactus.component';
+import { PartentersComponent } from './partenters/partenters.component';
+import { CareerhrComponent } from './careerhr/careerhr.component';
 
 const appRoutes: Routes = [
   { path: 'chome', component: ChomeComponent},
@@ -35,7 +43,6 @@ const appRoutes: Routes = [
     CmenuComponent,
     CfooterComponent,
     CexploreComponent,
-    CinsightsComponent,
     CeventsComponent,
     CexpertsComponent,
     CvideosComponent,
@@ -43,7 +50,16 @@ const appRoutes: Routes = [
     CpartnersComponent,
     ChomeComponent,
     CaboutComponent,
-    CpointsComponent
+    CpointsComponent,
+    ExplcareerComponent,
+    InsightsComponent,
+    EvtelementComponent,
+    ExpelementComponent,
+    VidelementComponent,
+    QueselementComponent,
+    ContactusComponent,
+    PartentersComponent,
+    CareerhrComponent
   ],
   imports: [
     BrowserModule,

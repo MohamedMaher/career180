@@ -1,0 +1,55 @@
+.land-container {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+}
+.landscape-container{
+    background-image: url(../../assets/landscape.jpg);
+    background-blend-mode: darken;
+    background-color: #0000008a;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+}
+.landscape-content-div {
+    background-color: #ffffff91;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #000;
+}
+.landscape-content-div h1 {
+    color: #042d7b;
+    font-weight: 700;
+}
+.landscape-content-div span {
+    color: #042d7b;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.landscape-content-div select {
+    border-color: #042d7b;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    color: #042d7b;
+    font-weight: 400;
+    box-shadow: 0px 0px 10px #fff;
+}
+.landscape-content-div h4 {
+    color: #042d7b;
+    font-weight: 400;
+    text-transform: uppercase;
+}

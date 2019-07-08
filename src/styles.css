@@ -3,3 +3,9 @@
 *{
     font-family: 'Oxygen', sans-serif;
 }
+.content-div {
+    background-color: #fff;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+}

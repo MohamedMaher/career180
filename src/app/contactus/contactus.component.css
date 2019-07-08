@@ -1,0 +1,16 @@
+.cus {
+    padding-top: 15px;
+    background-color: #9a4380;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    text-align: -webkit-center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.cus h5{
+    font-size: 1em;
+}
