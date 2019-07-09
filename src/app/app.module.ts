@@ -26,6 +26,15 @@ import { QueselementComponent } from './queselement/queselement.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { PartentersComponent } from './partenters/partenters.component';
 import { CareerhrComponent } from './careerhr/careerhr.component';
+import { SignupComponent } from './signup/signup/signup.component';
+import { Form1Component } from './signup/form1/form1.component';
+import { PersonalComponent } from './signup/personal/personal.component';
+import { EducationComponent } from './signup/education/education.component';
+import { ExperienceComponent } from './signup/experience/experience.component';
+import { InterestsComponent } from './signup/interests/interests.component';
+import { AppiontmentsComponent } from './signup/appiontments/appiontments.component';
+import { CvComponent } from './signup/cv/cv.component';
+import { SigninComponent } from './signin/signin/signin.component';
 
 const appRoutes: Routes = [
   { path: 'chome', component: ChomeComponent},
@@ -34,6 +43,7 @@ const appRoutes: Routes = [
   { path: 'cquestions', component: CquestionsComponent},
   { path: 'cabout', component: CaboutComponent},
   { path: 'cpoints', component: CpointsComponent},
+  { path: 'signup', component: SignupComponent},
   { path: '',redirectTo: '/chome',pathMatch: 'full'},
 ];
 @NgModule({
@@ -59,7 +69,16 @@ const appRoutes: Routes = [
     QueselementComponent,
     ContactusComponent,
     PartentersComponent,
-    CareerhrComponent
+    CareerhrComponent,
+    SignupComponent,
+    Form1Component,
+    PersonalComponent,
+    EducationComponent,
+    ExperienceComponent,
+    InterestsComponent,
+    AppiontmentsComponent,
+    CvComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,
